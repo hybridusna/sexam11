@@ -8,4 +8,12 @@
 		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
 
+    <bean class ="webapp.beans.CalendarFactoryBean"/>
+    
+    <bean class = "webapp.beans.Calculator" factory-method="getInstance"/>
+        
+        
+        
+  
+    
 </beans>
